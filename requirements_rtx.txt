@@ -1,0 +1,10 @@
+transformers==5.16.1
+peft==0.20.0
+datasets==4.0.0
+accelerate==1.14.0
+bitsandbytes==0.50.2
+huggingface_hub==1.28.0
+safetensors==0.8.0
+pandas
+matplotlib
+vllm

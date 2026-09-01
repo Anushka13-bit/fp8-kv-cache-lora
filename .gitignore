@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Training outputs
+training_checkpoints/
+
+# Model / LoRA weights
+lora_adapter/*
+!lora_adapter/.gitkeep
+
+# Experiment outputs
+results/*
+!results/.gitkeep
+
+# Secrets
+.env
+*.key
+*.token
+
+# OS
+.DS_Store
